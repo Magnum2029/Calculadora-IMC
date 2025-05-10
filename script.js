@@ -17,5 +17,5 @@ else if (imc < 34.9) classificacao = "Obesidade grau 1";
 else if (imc < 39.9) classificacao = "Obesidade grau 2";
 else classificacao = "Obesidade grau 3";
 
-document.getElementById("resultado").innerText = 'Seu IMC é ${imc.toFixed(2)} (${classificacao})';
+document.getElementById("resultado").innerText = `Seu IMC é ${imc.toFixed(2)} (${classificacao})`;
 }
